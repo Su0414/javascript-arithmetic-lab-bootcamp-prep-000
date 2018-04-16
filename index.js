@@ -26,7 +26,7 @@ function dec(a){
 
 function makeInt(a){
   var test = parseInt(a);
-  if(test.isNaN()){
+  if(isNaN(a)){
     return "NaN as appropriate";
   }else{
     return test;
