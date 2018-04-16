@@ -35,7 +35,13 @@ function makeInt(a){
 }
 
 function preserveDecimal(a){
+  var test = parseFloat(a);
   
+  if(isNaN(test)){
+    return "NaN as appropriate";
+  }else{
+    return test;
+  }
 }
 
 
