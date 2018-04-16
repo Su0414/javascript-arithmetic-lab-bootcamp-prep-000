@@ -32,8 +32,10 @@ function makeInt(a){
   }else{
     return test;
   }
-    
+}
 
+function preserveDecimal(a){
+  
 }
 
 
