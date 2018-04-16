@@ -28,6 +28,8 @@ function makeInt(a){
   var test = parseInt(a);
   if(isNaN(a)){
     return "NaN as appropriate";
+  }else if(Math.log10(a)){
+    return 0;
   }else{
     return test;
   }
