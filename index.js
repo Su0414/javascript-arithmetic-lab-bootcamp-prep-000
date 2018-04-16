@@ -25,7 +25,11 @@ function dec(a){
 }
 
 function makeInt(a){
-  return parseInt(a);
+  if(isNaN(a)){
+    
+  }else{
+    return parseInt(a);
+  }
 }
 
 
