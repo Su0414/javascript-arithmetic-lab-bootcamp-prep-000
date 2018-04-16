@@ -33,9 +33,10 @@ function makeInt(a){
   
   if(Math.log10(test)){
     return 0;
-  }else{
-    return test;
   }
+  
+  return test;
+
 }
 
 
